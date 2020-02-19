@@ -1,0 +1,47 @@
+html, body{
+  outline: none !important;
+}
+
+img:hover {
+  opacity: 0.9;
+}
+
+.db_img_size{
+  width: 28px;
+  cursor: pointer;
+  border: 0;
+}
+
+.db_mr_r_l{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#db_more_buttons_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1025;
+}
+
+.db_txt_left{
+  float: left !important;
+  user-select: none;
+}
+
+.db_text_right{
+    top: 0;
+    right: 10px;
+    padding-top: 11px;
+    float: right !important;
+    z-index: 1025;
+    position: fixed;
+    color: #ffa200;
+    user-select: none;
+}
+
+@media screen and (max-width: 600px){
+  .db_mr_r_l{
+      margin-right: 4px;
+  }
+}

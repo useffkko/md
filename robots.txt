@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /private/*
+Allow: /
+
+Sitemap: https://makemd.de/sitemap.xml
