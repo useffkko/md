@@ -9,18 +9,9 @@ html {
   background-color: hsl(0, 2.1%, 36.9%);
 }
 
-.container-all {
-  /* width: 100%; */
-}
-
-.b{
-  /* height:72vh; */
-}
-
 .columns {
   width: 75%;
   margin: 0 auto;
-  /* padding: 5px 0; */
 }
 
 .column {
