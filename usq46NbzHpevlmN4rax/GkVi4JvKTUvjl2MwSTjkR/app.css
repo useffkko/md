@@ -25,10 +25,10 @@ textarea,
   display: block;
   width: 100%;
   padding: 10px;
-  border-radius: 1px;
+  border-radius: 3px;
   margin: 7px;
   border: 1px solid #f4f4f4;
-  box-shadow: 0px 1px 15px 0px #eea84e;
+  box-shadow: 0px 1px 15px 0px #fde8a7;
 }
 
 textarea {
