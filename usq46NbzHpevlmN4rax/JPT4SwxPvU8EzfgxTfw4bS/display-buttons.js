@@ -57,7 +57,7 @@ $(function () {
   $("#info_btn").on('click', function (evt) {
       evt.stopPropagation();
       evt.preventDefault();
-      window.location.href = 'pub/pg/doc';
+      window.location.href = 'pub/pg/examples';
   });
 });
 /*End Dsplay Buttons*/
