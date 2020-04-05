@@ -120,7 +120,9 @@ article {
 }
 
 .footer-p{
-  color:#ffa200;padding-left: 20px;
+  color:#ffa200;
+  padding-left: 20px;
+  font-size:14px;
 }
 
 .footer-a{
