@@ -99,3 +99,19 @@ $(document).ready(function () {
         }
     });
 });
+
+const b = document.getElementById('cbanner'),
+    accept = document.getElementById('caccept');
+if (!localStorage.uid) {
+    b.style.display = "inherit";
+} else {
+    b.style.display = "none";
+}
+accept.addEventListener('click', function () {
+    b.style.display = "none";
+    localStorage.uid = btoa("2020");
+});
+if (navigator.userAgent.match(/Opera|OPR\//)) {
+    b.style.display = "inherit";
+}
+

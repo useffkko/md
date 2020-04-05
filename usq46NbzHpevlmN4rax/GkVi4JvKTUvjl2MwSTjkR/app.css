@@ -25,7 +25,7 @@ textarea,
   display: block;
   width: 100%;
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 1px;
   margin: 7px;
   border: 1px solid #f4f4f4;
   box-shadow: 0px 1px 15px 0px #fde8a7;
@@ -133,6 +133,10 @@ article {
   color:#ffa200;
 }
 
+.footer-pr{
+  padding-right: 2px;
+}
+
 .footer-a-p{
   padding-right:3px;
 }
@@ -191,5 +195,58 @@ article {
   .footer-p{
     padding-left:1px;
     font-size: 15px;
+  }
+}
+
+/*cookie*/
+#cbanner {
+  width: 40%;
+  position: fixed;
+  bottom: 20px;
+  left: 13.88%;
+  padding: 13px;
+  z-index: 1030;
+  color: #ffffff;
+  font-size: 14px;
+  background: #454545;
+  display: none;
+}
+
+.c-a-tag{
+color: #ffa200 !important;
+text-decoration: none;
+}
+
+.c-a-tag:hover{
+color: #ffffff !important;
+text-decoration: underline !important;
+}
+
+#cbanner p {
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+#cbanner a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#cbanner a:hover {
+  color: #ffa200;
+}
+
+#caccept {
+padding-right: 7px;
+
+font-size: 15px;
+}
+
+@media (max-width: 576px) {
+  #cbanner{
+    bottom: 0;
+    left: 0;
+    width: 100%;
   }
 }
